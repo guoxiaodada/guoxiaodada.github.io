@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		-webkit-perspective: 2500;
+	}
+	@-webkit-keyframes name{
+		from{transform: rotateX(0deg)rotateY(0deg);}
+		to{transform: rotateX(360deg)rotateY(360deg);}
+	}
+	.box{
+		width: 400px;
+		height: 400px;
+		margin: 150px auto;
+		position: relative;
+		border: 1px solid black;
+		animation: name 4s linear infinite;
+		transform-style: preserve-3d;
+	}
+	.box>div{
+		width: 400px;
+		height: 400px;
+		text-align: center;
+		line-height: 400px;
+		font-size: 30px;
+		position: absolute;
+		transition: all 2s;
+	}
+	.box>div:nth-of-type(1){
+		background-color: pink;
+		transform: translateZ(-200px);
+	}
+	.box:hover div:nth-of-type(1){
+		transform: translateZ(-400px);
+	}
+	.box>div:nth-of-type(2){
+		background-color: blue;
+		transform: rotateY(90deg) translateZ(-200px);
+	}
+	.box:hover div:nth-of-type(2){
+		transform: rotateY(90deg) translateZ(-400px);
+	}
+	.box>div:nth-of-type(3){
+		background-color: yellow;
+		transform: rotateY(270deg) translateZ(-200px);
+	}
+	.box:hover div:nth-of-type(3){
+		transform: rotateY(270deg) translateZ(-400px);
+	}
+	.box>div:nth-of-type(4){
+		background-color: red;
+		transform: rotateX(90deg) translateZ(-200px);;
+	}
+	.box:hover div:nth-of-type(4){
+		transform: rotateX(90deg) translateZ(-400px);
+	}
+	.box>div:nth-of-type(5){
+		background-color: green;
+		transform: rotateX(270deg) translateZ(-200px);
+	}
+	.box:hover div:nth-of-type(5){
+		transform: rotateX(270deg) translateZ(-400px);
+	}
+	.box>div:nth-of-type(6){
+		background-color: purple;
+		transform: translateZ(200px);
+	}
+	.box:hover div:nth-of-type(6){
+		transform: translateZ(400px);
+	}
+</style>
+</head>
+<body>
+	<div class="box">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+		<div>5</div>
+		<div>6</div>
+	</div>
+</body>
+</html>
