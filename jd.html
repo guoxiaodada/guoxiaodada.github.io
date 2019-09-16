@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="03.css">
+	<style type="text/css">
+	#bbb:after{
+		clear: both;
+		height: 0;
+		content: "";
+		display: block;
+		visibility: hidden;
+	}
+	@-webkit-keyframes name{
+		0%{transform: translate(0,0);}
+		10%{transform: translate(0,0);}
+		20%{transform: translate(-350px,0);}
+		30%{transform: translate(-350px,0);}
+		40%{transform: translate(-700px,0);}
+		50%{transform: translate(-700px,0);}
+		60%{transform: translate(-1050px,0);}
+		70%{transform: translate(-1050px,0);}
+		80%{transform: translate(-1400px,0);}
+		90%{transform: translate(-1400px,0);}
+		100%{transform: translate(0,0);}
+	}
+	#bbb:hover{
+		animation-play-state: paused;/*暂停动画*/
+	}
+	.tj{
+		width: 95%;
+		height: 35px;
+		position: relative;
+		top: 30px;
+		margin: 0 auto;
+	}
+	.tj img{
+		width: 100%;
+		height: 100%;
+	}
+	.recTabTpl{
+		width: 100%;
+		position: relative;
+		top: 30px;
+	}
+	.recTabTpl ul{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.recTabTpl ul li{
+		width: 48%;
+		height: 267px;
+		float: left;
+		margin-left: 5px;
+		background-color: white;
+		margin-top: 10px;
+	}
+	.recTabTpl ul li img{
+		width: 100%;
+	}
+	.recTabTpl ul li .span{
+		display: inline-block;
+		height: 31px;
+		line-height: 15px;
+		overflow: hidden;
+		font-size: 12px;
+	}
+	.recTabTpl ul li .span img{
+		width: 13px;
+		height: 13px;
+		width: auto;
+		line-height: 15px;
+		margin-right: 5px;
+	}
+	.recTabTpl ul li p .spana{
+		color: red;
+		font-size: 16px;
+	}
+	.recTabTpl ul li p .spanb{
+		color: red;
+		font-size: 14px;
+		height: ;
+		border: 1px solid red;
+		padding: 0 3px;
+	}
+	.recTabTpl ul li p .spanc{
+		margin-right: 3%;
+		float: right;
+		border: 1px solid black;
+		font-size: 12px;
+		padding: 3px 5px;
+	}
+</style>
+</head>
+<body>
+	<div class="mjd-header">
+		<div class="m_common_container">
+			<div class="userinfo">
+				<div class="menu-icon">
+					<span class="menu" id="menu"></span>
+				</div>
+			</div>
+			<div class="m-common-header-search">
+				<div class="jd-header-search-box">
+					<i class="search-input-left-jd"></i>
+					<i class="search-input-left-icon"></i>
+					<div class="jd-header-search-input">
+						<input type="text" name="" placeholder="扫描仪" class="hilight2">
+					</div>
+				</div>
+			</div>
+			<div class="msShortcutLogin"><span>登录</span></div>
+		</div>
+	</div>
+	<div class="navs">
+		<div class="new-slide" id="aaa">
+			<ul class="j_slide_list" id="bbb">
+				<li><img src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/57480/29/10528/95131/5d79e2aeE6c3f3672/2794976175a2ffbc.jpg!cr_1125x445_0_171!q70.jpg.dpg"></li>
+				<li><img src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/40591/19/14107/104442/5d7348ffE27700a67/d02ca91dbdb10f71.jpg!cr_1125x445_0_171!q70.jpg.dpg"></li>
+				<li><img src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/39975/6/2210/103146/5cbfdd4fEd359fb15/90c41bac5ab851de.jpg!cr_1125x445_0_171!q70.jpg.dpg"></li>
+				<li><img src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/23112/33/6431/99212/5c540d7fEf8000223/fddb6b047c02ba3d.jpg!cr_1125x445_0_171!q70.jpg.dpg"></li>
+				<li><img src="https://m.360buyimg.com/mobilecms/s700x280_jfs/t1/80578/19/7548/112245/5d59fc73Ee55f972c/7de06196e583d621.jpg!cr_1125x445_0_171!q70.jpg.dpg"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="floor-the-container-outer">
+		<div class="floor-the-container">
+			<div class="graphic-separation"><img src="https://m.360buyimg.com/mobilecms/s250x200_jfs/t1/76988/32/10046/100297/5d7a1856Ead4c2edc/55d9863a6b7cfded.png!q70.jpg.dpg"></div>
+			<div class="graphic-separation"><img src="https://m.360buyimg.com/mobilecms/s250x200_jfs/t1/72297/20/10211/48917/5d7a19c3E3e76fbc9/8f6cf0c727b34eca.png!q70.jpg.dpg"></div>
+			<div class="graphic-separation"><img src="https://m.360buyimg.com/mobilecms/s250x200_jfs/t1/67882/17/10067/34867/5d7a1e0eEc57dd601/6c866a879e438900.png!q70.jpg.dpg"></div>
+		</div>
+	</div>
+	<div class="mall_nav_1">
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t1/20983/16/10753/6124/5c8a16aaE5d6b15d7/01e0e818a7505267.png">
+			<span>京东超市</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t1/39401/17/2391/5859/5cc06fcfE2ad40668/28cda0a571b4a576.png">
+			<span>数码电器</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t1/17169/3/4127/4611/5c2f35cfEd87b0dd5/65c0cdc1362635fc.png">
+			<span>京东服饰</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t17725/156/1767366877/17404/f45d418b/5ad87bf0N66c5db7c.png">
+			<span>京东生鲜</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t16990/157/2001547525/17770/a7b93378/5ae01befN2494769f.png">
+			<span>京东到家</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t18454/342/2607665324/6406/273daced/5b03b74eN3541598d.png">
+			<span>充值缴费</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t22228/270/207441984/11564/88140ab7/5b03fae3N67f78fe3.png">
+			<span>9.9元拼</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t1/7068/29/8987/5605/5c120da2Ecae1cc3a/016033c7ef3e0c6c.png">
+			<span>领券</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t16828/63/2653634926/5662/d18f6fa1/5b03b779N5c0b196f.png">
+			<span>赚钱</span>
+		</a>
+		<a href="javascript::">
+			<img src="https://m.360buyimg.com/mobilecms/s120x120_jfs/t1/22262/9/1470/4527/5c120cd0E5d3c6c66/4792ec307a853e9f.png">
+			<span>PLUS会员</span>
+		</a>
+	</div>
+	<div class="seckill">
+		<div class="title_wrap">
+			<div class="sec_kill_floor">
+				<div class="seckill-tit-img"></div>
+				<strong class="seckill-nth">10点场</strong>
+				<a href="javascript::" class="MHome_BHandSeckillMore">更多秒杀<i></i></a>
+			</div>
+			<div class="floor-container">
+				<ul class="seckill-new-list">
+					<li>
+						<div class="seckill-item-img"><img src="https://img14.360buyimg.com/n1/s150x150_jfs/t1/61108/13/10091/169243/5d79f5edE0fd5cc22/96b7b8c0640baf30.jpg.dpg"></div>
+						<div class="seckill-item-price">
+							<span class="seckill-new-price">￥7769</span>
+							<span class="seckill-original-price">￥9999</span>
+						</div>
+					</li>
+					<li>
+						<div class="seckill-item-img"><img src="https://img14.360buyimg.com/n1/s150x150_jfs/t1/79964/8/9900/172035/5d778d84Ea8efdaa7/8a81ed0326293efa.jpg.dpg"></div>
+						<div class="seckill-item-price">
+							<span class="seckill-new-price">￥68</span><br>
+							<span class="seckill-original-price">￥228</span>
+						</div>
+					</li>
+					<li>
+						<div class="seckill-item-img"><img src="https://img14.360buyimg.com/n1/s150x150_jfs/t2788/233/1650346019/147215/1e3c1f2d/57466323N019015a9.jpg.dpg"></div>
+						<div class="seckill-item-price">
+							<span class="seckill-new-price">￥79</span><br>
+							<span class="seckill-original-price">￥129</span>
+						</div>
+					</li>
+					<li>
+						<div class="seckill-item-img"><img src="https://img14.360buyimg.com/n1/s150x150_jfs/t1/46661/27/10575/147500/5d79df83E948d0972/6048507454f5395a.jpg.dpg"></div>
+						<div class="seckill-item-price">
+							<span class="seckill-new-price">￥379</span><br>
+							<span class="seckill-original-price">￥499</span>
+						</div>
+					</li>
+					<li>
+						<div class="seckill-item-img"><img src="https://img14.360buyimg.com/n1/s150x150_jfs/t1/80173/10/10020/129033/5d785bc9Eb6417833/0418cc5697d3607d.jpg.dpg"></div>
+						<div class="seckill-item-price">
+							<span class="seckill-new-price">￥399</span><br>
+							<span class="seckill-original-price">￥499</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="banner_06003"><img src="https://m.360buyimg.com/mobilecms/s750x230_jfs/t1/64531/25/10074/127692/5d79e47dE40916c18/1f79a5f6c492d9cd.jpg!q70.jpg.dpg"></div>
+	<div class="flsPit"><img src="https://m.360buyimg.com/mobilecms/s750x80_jfs/t1/80458/35/2250/24646/5d09044cEb3c6b467/e1af43a6ea0cb5fa.png!q70.jpg.dpg"></div>
+	<div class="floor-the-container-outers">
+		<div class="floor-graphic-item">
+			<div class="bdr-r">
+				<div class="real-show">
+					<h3>爱要表达</h3>
+					<p>甄选好物</p>
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/37391/40/10737/336480/5cf4f71dEc24c3e81/f9450e4112c968e2.jpg!q70.jpg.dpg">
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/69882/28/9785/244396/5d7623e9Ec90c6871/43a0a6846431dd28.jpg!q70.jpg.dpg">
+				</div>
+				<div class="real-show">
+					<h3>意式家具</h3>
+					<p> 极简主义的生活方式 </p>
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/64170/5/9818/253013/5d779aacE5cad197a/1815224fdec11cbf.jpg!q70.jpg.dpg">
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/64170/5/9818/253013/5d779aacE5cad197a/1815224fdec11cbf.jpg!q70.jpg.dpg">
+				</div>
+			</div>
+			<div class="floor-graphic-items">
+				<div class="graphic-col04-bg">
+					<h3>好物必败</h3>
+					<p>不止好看</p>
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/39251/39/10582/193374/5d1dcdb9Ebec3098c/9ab4794fe9682a77.jpg!q70.jpg.dpg">
+				</div>
+				<div class="graphic-col04-bg">
+					<h3>流行美妆</h3>
+					<p>优雅又吸睛</p>
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/70409/11/6957/138004/5d5109e1E37bf2fb9/4896271b14220073.jpg!q70.jpg.dpg">
+				</div>
+				<div class="graphic-col04-bg">
+					<h3>净爽剃须</h3>
+					<p>男神同款</p>
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/56457/19/7912/129214/5d5673b5Ec46445bc/a4bd2ffce3090264.jpg!q70.jpg.dpg">
+				</div>
+				<div class="graphic-col04-bg" style="border: none">
+					<h3>呵护宝贝</h3>
+					<p>妈妈放心</p>
+					<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/71215/39/5259/186414/5d37f58eEc4c0d693/3a46758f3cbb664f.jpg!q70.jpg.dpg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="expo_loaded"><img src="https://m.360buyimg.com/mobilecms/s750x80_jfs/t1/39486/28/9224/23804/5d09048aE5127de40/eec779757a34e94d.png!q70.jpg.dpg"></div>
+	<div class="MHome_BFloor">
+		<div class="MHome_BFloors">
+			<div>
+				<h3>免息星球</h3>
+				<p>白条免息购</p>
+				<img src="https://m.360buyimg.com/n1/s150x150_jfs/t29566/227/1464891645/10350/a5b133e2/5ce20cdcNd9cdd972.jpg!q70.jpg.dpg">
+			</div>
+			<div>
+				<h3>品牌闪购</h3>
+				<p>享品质好物</p>
+				<img src="https://m.360buyimg.com/n1/s150x150_jfs/t18337/154/150031047/10921/90aecefc/5a60384dN46bf2eac.jpg!q70.jpg.dpg">
+			</div>
+			<div>
+				<h3>品牌秒杀</h3>
+				<p>低价抢大牌</p>
+				<img src="https://m.360buyimg.com/n1/s150x150_jfs/t1/77185/13/10319/126046/5d7ca3e6Eb258f7fc/8efa0e9e0b92e7bf.jpg!q70.jpg.dpg">
+			</div>
+			<div>
+				<h3>京东直播</h3>
+				<p>好货即刻买</p>
+				<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/76908/18/801/66093/5cef9622E297944e8/8b62a5e086c78d1c.png!q70.jpg.dpg">
+			</div>
+			<div>
+				<h3>排行榜</h3>
+				<p>专属购物指南</p>
+				<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t10675/97/2254709219/9497/6ba245fd/59f14a23N0594b89c.jpg!q70.jpg.dpg">
+			</div>
+			<div>
+				<h3>拍拍好物</h3>
+				<p>二手优品 </p>
+				<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/34938/26/11155/70774/5cefa0c6E5a90edb2/47b686712510d44e.png!q70.jpg.dpg">
+			</div>
+			<div>
+				<h3>新品首发</h3>
+				<p>vivo X27</p>
+				<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/25511/17/11799/79275/5c91a3fbE3575290e/ffcd261423c0b5c8.jpg!q70.jpg.dpg">
+			</div>
+			<div>
+				<h3>发现好货</h3>
+				<p>发现品质生活</p>
+				<img src="https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/38988/36/7707/54292/5cefa2b0E1cce5cfa/64e76ed6c67568bf.png!q70.jpg.dpg">
+			</div>
+		</div>
+	</div>
+	<div class="tj"><img src="https://img11.360buyimg.com/jdphoto/jfs/t1/31601/22/15554/14040/5cc2a86fEbdb1098b/88174b36f85283b6.png"></div>
+	<div class="recTabTpl">
+		<ul>
+			<li>
+				<img src="https://img10.360buyimg.com/mobilecms/s372x372_jfs/t1/37391/40/10737/336480/5cf4f71dEc24c3e81/f9450e4112c968e2.jpg!q70.dpg.webp">
+				<span class="span"><img src="https://img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png">精工（SEIKO）手表Chronograph系列计时码表太阳电能石英男表SSC397J1</span>
+				<p>
+					<span class="spana">￥1499</span>
+					<span class="spanb">闪购</span>
+					<span class="spanc">看相似</span>
+				</p>
+			</li>
+			<li>
+				<img src="https://img12.360buyimg.com/mobilecms/s372x372_jfs/t1/71495/1/8614/271265/5d69c7feEcfe3e0a4/d7d041f9641d6ceb.jpg!q70.dpg.webp">
+				<span class="span"><img src="https://img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png">〶【JD旗舰品牌直营】轻便拉杆箱 行李箱小型铝框男女拉杆箱万向轮轻便旅行登机密码箱 拉链#白配金 18寸</span>
+				<p>
+					<span class="spana">￥268</span>
+					<span class="spanb">满减</span>
+					<span class="spanc">看相似</span>
+				</p>
+			</li>
+			<li>
+				<img src="https://img12.360buyimg.com/mobilecms/s372x372_jfs/t1/72912/16/6661/22675/5d4aa112E10fd7daa/4f90f269b7163be2.jpg!q70.dpg.webp">
+				<span class="span"><img src="https://img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png">〶【JD旗舰品牌直营】轻便拉杆箱 行李箱小型铝框男女拉杆箱万向轮轻便旅行登机密码箱 拉链#白配金 18寸</span>
+				<p>
+					<span class="spana">￥268</span>
+					<!-- <span class="spanb"></span> -->
+					<span class="spanc">看相似</span>
+				</p>
+			</li>
+			<li>
+				<img src="https://img10.360buyimg.com/mobilecms/s372x372_jfs/t1/66587/27/10426/160842/5d7e01a6E947ecf17/a3e304826f2c829d.jpg!q70.dpg.webp">
+				<span class="span"><img src="https://img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png">芙丽芳丝氨基酸洗面奶洁面乳细腻泡沫温和水润深层清洁不易紧绷男女适用 20g洗面奶【此商品勿拍</span>
+				<p>
+					<span class="spana">￥29.9</span>
+					<span class="spanb">满减</span>
+					<span class="spanc">看相似</span>
+				</p>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
