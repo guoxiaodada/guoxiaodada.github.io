@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	html{
+		font-size: 100px;
+	}
+	body{
+		font-size: 16px;
+	}
+	.div{
+		width: 100%;
+		height: 100%;
+	}
+	.diva{
+		width: 6.4rem;
+		height: 1rem;
+	}
+	.diva img{
+		width: 2.1618rem;
+		height: 0.59733rem;
+		margin: 0.2rem;
+	}
+	.diva span{
+		width: 1.3311rem;
+		height: 25px;
+		float: right;
+		margin-right: 0.2rem;
+		margin-top: 0.2rem;
+		font-size: 16px;
+		text-align: center;;
+		line-height: 25px;
+		display: inline-block;
+		border: 1px solid #666;
+		border-radius: 15px;
+	}
+	.ul{
+		width: 6.4rem;
+		height: 40px;
+		color: #666;
+		list-style: none;
+	}
+	.ul li{
+		width: 2.0421rem;
+		height: 38px;
+		text-align: center;
+		line-height: 38px;
+		float: left;
+	}
+	.active{
+		border-bottom: 2px solid green;
+		color: green;
+	}
+	@-webkit-keyframes name{
+		0%{transform: translate(0,0);}
+		10%{transform: translate(0,0);}
+		20%{transform: translate(-6.4rem,0);}
+		30%{transform: translate(-6.4rem,0);}
+		40%{transform: translate(-12.8rem,0);}
+		50%{transform: translate(-12.8rem,0);}
+		60%{transform: translate(-19.2rem,0);}
+		70%{transform: translate(-19.2rem,0);}
+		80%{transform: translate(-25.6rem,0);}
+		90%{transform: translate(-25.6rem,0);}
+		100%{transform: translate(0,0);}
+	}
+	.divb{
+		width: 6.4rem;
+		height: 2.55999rem;
+		overflow: hidden;
+	}
+	.divb div{
+		width: 32rem;
+		height: 2.55999rem;
+		animation: name 8s linear infinite;
+	}
+	.divb div img{
+		width: 6.4rem;
+		height: 2.55999rem;
+		float: left;
+	}
+	h3{
+		margin: 0.2rem 0.2rem;
+	}
+	.divc{
+		width: 6.4rem;
+	}
+	.divc div{
+		width: 3rem;
+		margin: 0.1rem;
+		float: left;
+	}
+	.divc div img{
+		width: 2.8rem;
+		height: 2.8rem;
+	}
+</style>
+</head>
+<body>
+	<div class="div">
+		<div class="diva">
+			<img src="img/dd8fc8342175f8ec63feecd0d56cd3f.png">
+			<span>下载APP</span>
+		</div>
+		<ul class="ul">
+			<li class="active">推荐</li>
+			<li>排行榜</li>
+			<li>搜索</li>
+		</ul>
+		<div class="divb">
+			<div>
+				<img src="img/3d2de3e41c978d9d7ff597ee9b01fc1.jpg" alt="">
+				<img src="img/5f450299e38181b33ef614ac400774a.jpg" alt="">
+				<img src="img/089bd570731d8b62fcfa7655a3050fe.jpg" alt="">
+				<img src="img/6820b92abb6640936c45b1eba8ff50d.jpg" alt="">
+				<img src="img/bbd94685e9cf0006e2ee0e3e06ccce0.jpg" alt="">
+			</div>
+		</div>
+		<h3>电台</h3>
+		<div class="divc">
+			<div>
+				<img src="img/f292470bed59cd791aa7afaa741e57a.jpg">
+				<p>热歌</p>
+			</div>
+			<div>
+				<img src="img/da89af2fd997841692989c7c4d63563.jpg">
+				<p>一人一首招牌歌</p>
+			</div>
+		</div>
+	</div>
+	<script src="adjust.js"></script>
+</body>
+</html>
