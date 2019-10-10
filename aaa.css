@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #fcfcfd;
+}
+html{
+	font-size: 100px;
+}
+body{
+	font-size: 16px;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	color: black;
+}
+.u-height{
+	width: 100%;
+	height: 100%;
+}
+.root{
+	width: 100%;
+	height: 84px;
+	background-color: #d43c33;
+	position: fixed;
+	z-index: 999;
+}
+.topfix{
+	width: 142px;
+	height: 25px;
+	font-size: 20px;
+	color: white;
+	float: left;
+	font-weight: 400;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.topfr{
+	width: 100px;
+	height: 36px;
+	float: right;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 24px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 35px;
+	color: #d43c33;
+}
+.tabarea{
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	position: fixed;
+	z-index: 999;
+	top: 84px;
+	border-bottom: 1px solid #ccc;
+}
+.tabarea ul{
+	display: flex;
+	list-style: none;
+}
+.tabarea ul li{
+	flex: 1;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+}
+.tabarea ul li a{
+	display: inline-block;
+	text-decoration: none;
+}
+.active{
+	color: #d43c33;
+	border-bottom: 1px solid #d43c33;
+}
+.tabct{
+	width: 100%;
+	height: 100%;
+	padding-top: 123px;
+}
+.tabctitem{
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+}
+.tabctitem h2{
+    padding-left: 9px;
+    float: left;
+    /*margin-bottom: 14px;*/
+    font-size: 17px;
+    height: 20px;
+    line-height: 20px;
+	border-left: 2px solid #d43c33;
+}
+.remd{
+	float: left;
+	padding-bottom: 20px;
+}
+.songs{
+	width: 33%;
+	float: left;
+	margin-right: 0.5%;
+	padding-top: 14px;
+}
+.songs img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.songs p{
+	height: 30px;
+	padding: 0 2px 0 6px;
+	line-height: 1.2;
+	font-size: 13px;
+	overflow: hidden;
+}
+.newsg{
+	width: 100%;
+	float: left;
+	padding-bottom: 20px;
+}
+.sgfr{
+	width: 96%;
+	padding-left: 10px;
+	height: 55px;
+	float: left;
+	padding-top: 14px;
+}
+.sgchfr{
+	width: 75%;
+	height: 43px;
+	float: left;
+	padding: 6px 0;
+}
+.sgchfr span{
+	width: 100%;
+	height: 25px;
+	display: inline-block;
+	font-size: 17px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.sgchfr p{
+	color: #888;
+	font-size: 12px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.sgchfr p i{
+	display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 4px;
+    background: url(https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=) no-repeat;
+    background-size: 166px 97px;
+}
+.sgchfl{
+	width: 22px;
+	height: 55px;
+	float: right;
+	padding: 0 10px;
+}
+.sgchfl span{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-top: 14px;
+	background: url(https://s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28c3767992ca4bb6d4887c74880=) no-repeat;
+	background-position: -24px 0;
+	background-size: 166px 97px;
+}
+.homeft{
+	width: 100%;
+	/*height: 200px;*/
+	float: left;
+	padding-top: 53.3%;
+	background: url(https://s3.music.126.net/mobile-new/img/recommand_bg_2x.png?d045fafc60e017b653f8065a87496922=) no-repeat;
+	position: relative;
+	background-size: 100%;
+}
+.ftwrap{
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+}
+.homeft .logo{
+	width: 100%;
+	margin-top: 16.3%;
+}
+.logo img{
+	display: block;
+	margin: 0 auto;
+}
+.openapp{
+	border: 1px solid #d43c33;
+	border-radius: 38px;
+	line-height: 38px;
+	color: #d43c33;
+	font-size: 16px;
+	margin: 15px 37px 5px;
+	text-align: center;
+}
+.copyright{
+	font-size: 10px;
+	color: #888;
+	margin: 15px 37px 5px;
+	text-align: center;
+}
